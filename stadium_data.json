@@ -1,0 +1,15 @@
+{
+  "orders": [],
+  "bookings": [],
+  "tickets": [],
+  "leaderboard": [
+    {
+      "name": "User123",
+      "points": 750
+    },
+    {
+      "name": "Fanatic88",
+      "points": 320
+    }
+  ]
+}

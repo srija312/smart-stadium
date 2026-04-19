@@ -1,0 +1,24 @@
+{
+  "name": "smart-stadium-experience-system",
+  "version": "1.0.0",
+  "description": "Hyper-Intelligent Stadium Management & Fan Experience Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  },
+  "keywords": [
+    "stadium",
+    "iot",
+    "real-time",
+    "heatmap",
+    "pathfinding",
+    "crowd-control"
+  ],
+  "author": "Antigravity AI",
+  "license": "MIT"
+}
