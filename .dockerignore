@@ -1,0 +1,10 @@
+node_modules
+npm-debug.log
+stadium_data.json
+.git
+.gitignore
+Dockerfile
+.dockerignore
+implementation_plan.md
+task.md
+walkthrough.md

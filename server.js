@@ -9,7 +9,7 @@ const DATA_FILE = path.join(__dirname, 'stadium_data.json');
 const app = express();
 const server = http.createServer(app);
 const io = new Server(server);
-const PORT = 3000;
+const PORT = process.env.PORT || 8080;
 
 // ==========================================
 // CORE STATE & SIMULATION ENGINE
@@ -1015,8 +1015,8 @@ io.on('connection', (socket) => {
     });
 });
 
-server.listen(PORT, () => {
+server.listen(PORT, '0.0.0.0', () => {
     console.log(`\n🚀 SSES Hyper-Intelligent System Online`);
-    console.log(`📍 URL: http://localhost:${PORT}`);
+    console.log(`📍 URL: http://0.0.0.0:${PORT}`);
     console.log(`⏱️  Simulation Engine: RUNNING (3s interval)\n`);
 });
